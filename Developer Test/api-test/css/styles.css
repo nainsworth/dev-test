@@ -1,0 +1,89 @@
+@font-face {
+  font-family: red-hands;
+  src: url(../assets/fonts/KGRedHands.ttf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: auto;
+  font-family: red-hands;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  padding: 24px;
+  max-width: 1500px;
+}
+
+/* ---------- header ---------- */
+
+header {
+  font-size: 18px;
+  width: 95%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+}
+
+select {
+  margin: auto;
+  font-size: 18px;
+}
+
+button {
+  align-self: center;
+  padding: 2px;
+}
+
+/* ---------- main ---------- */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+/* ---------- card ---------- */
+
+.card {
+  padding: 24px;
+  box-shadow: 0 0 8px 0 #00000056;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.cardImage {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+}
+
+.cardTitle {
+  font-size: 20px;
+  text-transform: capitalize;
+}

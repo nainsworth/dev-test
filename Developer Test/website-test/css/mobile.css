@@ -1,0 +1,40 @@
+@media only screen and (max-width: 665px) {
+  body {
+    padding: 0;
+  }
+
+  /* ---------- header ---------- */
+
+  header {
+    flex-direction: column;
+  }
+
+  .need-to-know {
+    text-align: center;
+    margin: auto;
+  }
+
+  /* ---------- feature ---------- */
+
+  .feature {
+    padding: 40px;
+    background-position: 45% 40%;
+  }
+
+  .feature-content {
+    width: 100%;
+  }
+
+  /* ---------- main ---------- */
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ---------- footer ---------- */
+
+  footer {
+    padding: 20px;
+  }
+}
